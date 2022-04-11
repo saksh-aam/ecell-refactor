@@ -1,0 +1,135 @@
+.herobg {
+    height:auto;
+    width: 100%;
+    background: url("../../images/bg.jpeg") repeat fixed center;
+    background-size: 100% 100%;
+    scroll-behavior: smooth;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    margin-top: 93px;
+}
+
+.centerele {
+    font-size: 70px;
+    width: 55%;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 0.05rem;
+    line-height: 80px;
+}
+
+.hero-container>p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 10px;
+    text-align: center;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #001427;
+}
+.explore-btn{
+    box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 6px;
+    width: 20vh;
+    padding: 5px;
+    background: #001427;
+    width: auto;
+    font-family: Montserrat,
+    sans-serif;
+    letter-spacing: .001rem;
+    font-weight: 50;
+    height: auto;
+    color: #fdca40;
+    font-size: 24px;
+}
+.icons {
+    position: relative;
+    bottom: 0vh;
+    display: flex;
+    padding-left: 1vw;
+    list-style: none;
+    margin-left: 10px;
+}
+
+.icons>li {
+    margin-left: 15px;
+}
+
+.icons>li>a {
+    text-decoration: none;
+    color: #001427;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+}
+
+.marque {
+    display: block;
+    overflow-x: hidden;
+    color: #001427;
+    font-size: 2rem;
+    font-weight: 40;
+}
+
+.bar {
+    height: 4px;
+    width: 40px;
+    margin-bottom: 2vh;
+    align-self: center;
+    background-color: #001427;
+}
+
+#vertical {
+    position: absolute;
+    bottom: 9vh;
+    margin-right: -35px;
+    right: 0;
+    font-size: 35px;
+    transform: rotate(90deg);
+    animation: move 1s alternate infinite;
+}
+
+@keyframes move {
+    0% {
+        bottom: 14vh;
+    }
+
+    100% {
+        bottom: 8vh;
+    }
+}
+
+@media only screen and (max-width: 1078px) {
+    .centerele {
+        padding-top: 13px;
+        font-size: 50px;
+        width: 70%;
+        line-height: 55px;
+        letter-spacing: 0.01rem;
+    }
+
+    .hero-container>p {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .centerele {
+        padding-top: 30px;
+        font-size: 35px;
+        width: 90%;
+        line-height: 50px;
+        letter-spacing: 0.01rem;
+    }
+
+}
