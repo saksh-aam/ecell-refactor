@@ -1,0 +1,101 @@
+/* Styling for the entire section */
+.mainb {
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 90vh;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.001rem;
+    padding: 75px 50px 0;
+    text-align: center;
+    background: #E8EEF2;
+    scroll-behavior: smooth;
+}
+
+
+/* Styling for the fieldset */
+fieldset {
+    border: none;
+    margin: 10px;
+}
+
+
+/* Styling for the heading h1 */
+h1 {
+    font-weight: bold;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+    font-size: 48px;
+    padding-bottom: 1px;
+}
+
+/* For the entire form container */
+.form_con {
+    background-color: white;
+    margin: auto;
+    max-width: 836px;
+    border-radius: 10px;
+    margin-bottom: 20vh;
+    padding-bottom: 3vh;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* For each input field */
+.input_con {
+    background: rgba(253, 202, 64, 0.3);
+    border: 2px solid rgb(240, 206, 240);
+    border-radius: 6px;
+    padding-left: 15px;
+    line-height: inherit;
+    width: 100%;
+    height: 54px;
+    margin: 20px -2px 10px;
+}
+
+/* To keep the inputs fields on the left */
+.col-1 {
+    margin: 0;
+    padding: 0;
+    width: 50%;
+}
+
+/* Textarea container */
+.textarea_con {
+    background: rgba(253, 202, 64, 0.3);
+    border: 2px solid rgb(240, 206, 240);
+    padding: 15px 0 0 15px;
+    margin: 18px -2px 3px 1px;
+    width: 100%;
+    height: 31vh;
+    border-radius: 6px;
+}
+
+
+/* Submit button */
+#submit {
+    background: #001427;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+    width: auto;
+    letter-spacing: 0.001rem;
+    font-weight: 50;
+    padding: 5px;
+    height: auto;
+    color: #FDCA40;
+    font-size: 24px;
+}
+
+/* Media queries to keep the component responsive */
+@media screen and (max-width: 780px) {
+    .col-1 {
+        width: 80%;
+    }
+
+    .col-2 {
+        width: 80%;
+    }
+
+    .form_con {
+        width: 80%;
+    }
+}
