@@ -1,0 +1,41 @@
+a {
+    font-size: 20px;
+    color: rgb(5, 5, 39);
+    font-family: 'Montserrat', sans-serif;
+}
+
+a:hover {
+    animation: fade-up;
+    color: rgb(5, 5, 39);
+}
+
+.navbar {
+    background: transparent;
+    color: rgb(5, 5, 39);
+    padding: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.nav-links {
+    text-decoration: none;
+    background-color: transparent;
+    color: rgb(5, 5, 39);
+}
+
+.navbar-brand {
+    font-size: 12px !important;
+    padding: 0px !important;
+}
+
+.logo {
+    justify-content: flex-start;
+    margin-top: 0px;
+    margin-left: 6px;
+    width: 107px;
+    height: 99px;
+}
+
+.justify-content-end {
+    padding-right: 38px;
+}
