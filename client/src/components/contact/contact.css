@@ -7,7 +7,7 @@
     margin: 0 auto;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 0.001rem;
-    padding: 75px 50px 0;
+    padding: 2rem 1rem;
     text-align: center;
     background: #E8EEF2;
     scroll-behavior: smooth;
@@ -15,7 +15,7 @@
 
 
 /* Styling for the fieldset */
-fieldset {
+.fields {
     border: none;
     margin: 10px;
 }
@@ -57,6 +57,13 @@ h1 {
     margin: 0;
     padding: 0;
     width: 50%;
+    height: 280px;
+}
+
+.col-2{
+    margin: 0;
+    padding: 0;
+    height: 280px;
 }
 
 /* Textarea container */
@@ -66,7 +73,7 @@ h1 {
     padding: 15px 0 0 15px;
     margin: 18px -2px 3px 1px;
     width: 100%;
-    height: 31vh;
+    height: 220px;
     border-radius: 6px;
 }
 
@@ -87,15 +94,36 @@ h1 {
 
 /* Media queries to keep the component responsive */
 @media screen and (max-width: 780px) {
-    .col-1 {
-        width: 80%;
+    .col-1,.col-2 {
+        width: 90%;
     }
 
-    .col-2 {
-        width: 80%;
+    .input_con{
+        margin-bottom: 1.3rem;
     }
 
     .form_con {
-        width: 80%;
+        width: 90%;
+    }
+
+    .mainb{
+        height: fit-content;
+    }
+}
+
+/* Media queries to keep the component responsive */
+@media screen and (max-width: 430px) {
+    .col-1,.col-2 {
+        width: 95%;
+        margin: 0;
+        padding: 0%;
+    }
+
+    .input_con{
+        margin-bottom: 1.38rem;
+    }
+
+    .form_con {
+        width: 100%;
     }
 }
