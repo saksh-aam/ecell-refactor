@@ -70,9 +70,11 @@ const Contact = () => {
             >Leave a message to contact our team
             </p>
             <div className="form_con">
-                <form method="POST" onSubmit={submitData}>
-                    <div className="col-1" style={{ display: "inline-block" }}>
-                        <fieldset>
+                <form method="POST" className='form-section' onSubmit={submitData}>
+                    <div className='input-block'>
+                        <div className="col-1" style={{ display: "inline-block" }}>
+                        <div className="fields">
+                            {/* <fieldset> */}
                             <input
                                 name="userName"
                                 type="text"
@@ -98,12 +100,13 @@ const Contact = () => {
                                 placeholder="Subject"
                                 value={userData.subject}
                                 onChange={postUserData}
-
                             ></input>
-                        </fieldset>
+                            {/* </fieldset> */}
+                        </div>
                     </div>
                     <div className="col-2" style={{ display: "inline-block" }}>
-                        <fieldset>
+                        <div className="fields">
+                            {/* <fieldset> */}
                             <textarea
                                 name="message"
                                 cols="40"
@@ -112,9 +115,14 @@ const Contact = () => {
                                 value={userData.message}
                                 onChange={postUserData}
                             ></textarea>
-                        </fieldset>
+                            {/* </fieldset> */}
+                        </div>
+                        {/* Use fieldset if div.fields not works */}
                     </div>
-                    <button id="submit" type="submit" >Send Message</button>
+                    </div>
+                    <div className='btn-block'>
+                        <button id="submit" type="submit" >Send Message</button>
+                    </div>
                 </form>
             </div>
         </div>
