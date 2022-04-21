@@ -70,8 +70,9 @@ const Contact = () => {
             >Leave a message to contact our team
             </p>
             <div className="form_con">
-                <form method="POST" onSubmit={submitData}>
-                    <div className="col-1" style={{ display: "inline-block" }}>
+                <form method="POST" className='form-section' onSubmit={submitData}>
+                    <div className='input-block'>
+                        <div className="col-1" style={{ display: "inline-block" }}>
                         <div className="fields">
                             {/* <fieldset> */}
                             <input
@@ -118,7 +119,10 @@ const Contact = () => {
                         </div>
                         {/* Use fieldset if div.fields not works */}
                     </div>
-                    <button id="submit" type="submit" >Send Message</button>
+                    </div>
+                    <div className='btn-block'>
+                        <button id="submit" type="submit" >Send Message</button>
+                    </div>
                 </form>
             </div>
         </div>
