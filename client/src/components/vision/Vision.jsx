@@ -29,6 +29,7 @@ const Vision = () => {
                 title={item.title}
                 data={item.data}
                 icon={item.icon}
+                key={item.title}
               />
             );
           })}
