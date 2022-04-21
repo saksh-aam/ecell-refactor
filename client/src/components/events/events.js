@@ -6,7 +6,7 @@ const Events = () => {
     <div className="eventbody p-5" id="event">
         <h2 style={{ fontSize: "55px", color: "white", fontWeight: "bold" }}>
           Eve
-          <h2
+          <span
             style={{
               fontSize: "55px",
               color: "#FDCA40",
@@ -15,7 +15,7 @@ const Events = () => {
             }}
           >
             nts
-          </h2>
+          </span>
         </h2>
       <div className="bigbox1">
         {/* <div xl="6" className="box" style={{ textAlign: "center" }}>
@@ -54,7 +54,7 @@ const Events = () => {
           </div>
         </div> */}
         <div className="div-xl-6 box">
-          <img className="thumbnail image" src={require("../../images/esummit.png")} />
+          <img className="thumbnail image" src={require("../../images/esummit.png")} alt="Esummit-IIITP"/>
           <div className="text" >
             <h1
               style={{
@@ -89,7 +89,7 @@ const Events = () => {
       </div>
       <div className="bigbox2">
         <div className="div-xl-4 box">
-          <img className="thumbnail image" src={require("../../images/Hack.jpg")} />
+          <img className="thumbnail image" src={require("../../images/Hack.jpg")} alt="Hackathon"/>
           <div className="text text1" >
             <h1
               style={{
@@ -116,7 +116,7 @@ const Events = () => {
           </div>
         </div>
         <div className="box">
-          <img className="thumbnail image" src={require("../../images/quiz.jpg")} />
+          <img className="thumbnail image" src={require("../../images/quiz.jpg")} alt="Silk Route"/>
           <div className="text text1" >
             <h1
               style={{
@@ -151,7 +151,7 @@ const Events = () => {
           </div>
         </div>
         <div className="div-xl-4 box">
-          <img className="thumbnail image" src={require("../../images/Speaker.jpg")} />
+          <img className="thumbnail image" src={require("../../images/Speaker.jpg")} alt="Ideathon"/>
           <div className="text text1">
             <h1
               style={{
