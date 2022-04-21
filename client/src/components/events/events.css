@@ -1,0 +1,111 @@
+.eventbody{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    font-family: 'Montserrat',sans-serif;
+    letter-spacing: 0.05rem;
+    font-size: 1.9vh;
+    padding: 50px 0 0;
+    text-align: center;
+    background-color:#001427;
+    scroll-behavior: smooth;
+  }
+  img{
+    width:100%;
+    height: 100%;
+    float:left;
+    margin:0px auto;
+  }
+  .box{
+    height: 58vh;
+    width: auto;
+    position:relative;
+    margin:1rem;
+    border-radius: 2px;
+    display: flex;
+    align-content: center;
+  }
+
+  .box .image{
+    width:100%;
+    margin:0px auto;
+    transform: rotateY(0);
+    transition:all 0.5s ease-out 0s;
+  }
+  .box:hover .image{
+    width:100%;
+    margin: 0px auto;
+    transform: rotateY(-90deg);
+    background: rgba(0,0,0,0.7);
+  }
+  .box .text{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width:100%;
+    height:100%;
+    position:absolute;
+    color:white;
+    /* top: 0;
+    left: 0; */
+    margin: auto;
+    /* padding: 12px 2px;  */
+    padding: 2rem;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 15vh;
+    background:rgba(0,0,0,0.7);
+    transform:rotateY(90deg);
+    transition:all 0.5s ease-in 0s;
+  }
+  .box:hover .text{
+    transform:rotateY(0);
+  }
+  .box .text h1{
+    font-size: 4.4vh;
+  }
+  .bigbox1 {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  }
+
+  .bigbox2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .button{
+      background: #001427;
+      /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);     */
+      border: 1px solid #162c41;
+      border-radius: 6px;
+      color: #FDCA40;
+      font-size: 20px;
+      font-weight: 30px;
+      padding: 0.6rem;
+  }
+
+  .button a{
+    text-decoration: none;
+    color: #FDCA40;
+  }
+
+  .button:hover{
+    background: #162c41;
+  }
+  @media screen and (max-width: 1024px) {
+    .bigbox1,.bigbox2{
+        flex-direction: column;
+    }
+    @media screen and (max-width: 427px) {
+      .box{
+          flex-direction: column;
+          width: 300px;
+      }
+      .box .text{
+        padding: 0rem;
+        padding-top: 10vh;
+      }
+}
+  }
