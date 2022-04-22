@@ -7,7 +7,7 @@ import {ImFacebook2} from 'react-icons/im';
 
 const Heropage = () => {
   return (
-      <div className="herobg">
+      <div className="herobg" id="heropage">
       <Navbars />
       <div>
         <Container fluid className="mx-auto hero-container">
@@ -26,7 +26,7 @@ const Heropage = () => {
               <li><a href="https://instagram.com/ecell_iiitp?igshid=6ivz7097rmfr"><BsInstagram style={{fontSize:'5vh'}}/></a></li>
               <li><a href="#"><ImFacebook2 style={{fontSize:'5vh'}}/></a></li>
               <li><div className="bar mt-4"></div></li>
-              <div id="vertical"><a href='#' style={{textDecoration:'none'}}>EVENTS &rarr;</a></div>
+              <div id="vertical"><a href='#event' style={{textDecoration:'none'}}>EVENTS &rarr;</a></div>
             </ul>
           </div>
         </Container>

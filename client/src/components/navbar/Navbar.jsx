@@ -22,13 +22,13 @@ const NavBar = () => {
         <Collapse isOpen={isOpen} navbar>
           <Nav navbar className="justify-content-end ml-auto px-3" style={{ width: "100%" }}>
             <NavItem>
-              <NavLink className='nav-links' href="/" style={{borderBottom:'#001427',paddingLeft:'20px'}} >Home</NavLink>
+              <NavLink className='nav-links' href="#heropage" style={{borderBottom:'#001427',paddingLeft:'20px'}} >Home</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink className='nav-links' to="#" style={{borderBottom:'#001427',paddingLeft:'20px',cursor:'pointer'}}>About</NavLink>
+              <NavLink className='nav-links' href="#visionpage" style={{borderBottom:'#001427',paddingLeft:'20px',cursor:'pointer'}}>About</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink className='nav-links' to="#" style={{borderBottom:'#001427',paddingLeft:'20px',cursor:'pointer'}}>Events</NavLink>
+              <NavLink className='nav-links' href="#event" style={{borderBottom:'#001427',paddingLeft:'20px',cursor:'pointer'}}>Events</NavLink>
             </NavItem>
             <NavItem>
               <NavLink className='nav-links' href="/" style={{borderBottom:'#001427',paddingLeft:'20px'}}>Resources</NavLink>

@@ -5,7 +5,7 @@ import "./vision.css";
 
 const Vision = () => {
   return (
-    <div className="main">
+    <div className="main" id="visionpage">
       <div>
         <h1 className="head">
           {" "}

@@ -81,7 +81,7 @@ const Events = () => {
                 className="button"
               >
                 {/*<FiberManualRecordIcon style={{ color: 'red', paddingRight: '4px', fontSize: '20px' }}/> */}{" "}
-              <a href="https://esummit.ecelliiitp.org" > Explore </a>
+              <a href="https://esummit.ecelliiitp.org" target="_blank" rel="noreferrer"> Explore </a>
               </button>
             </div>
           </div>
@@ -111,7 +111,7 @@ const Events = () => {
               An inventive mind creates resourceful products inspired from the best. Designing software based products with accurate amounts of innovation, design and user-friendly techniques to solve the given problems is the gist of any Hackathon. Connect with like-minded people to combine your enthusiasm levels to come up with authentic software solutions.
             </p>
             <div style={{ margin: "2vh" }}>
-              <button className="button"><a href="https://hackathon.ecelliiitp.org">Explore</a></button>
+              <button className="button"><a href="https://hackathon.ecelliiitp.org" target="_blank" rel="noreferrer">Explore</a></button>
             </div>
           </div>
         </div>
